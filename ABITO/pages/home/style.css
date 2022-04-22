@@ -108,7 +108,7 @@
     border: 0px;
     font-family: RobotoRegular;
     font-size: 14px;
-    width: 102%;
+    width: 100%;
     size: 14px;
     padding: 14px 0 14px 21.45px;
 }
@@ -121,4 +121,41 @@
     font-family: RobotoRegular;
     margin-right: 20px;
     margin-left: 6px;
+}
+.recommendations{
+    font-family: RobotoBold;
+    font-size: 24px;
+    margin-top: 42px;
+}
+.cards{
+    max-width: 264px;
+    padding: 0;
+}
+.cards__first{
+    margin-top: 25px;
+    padding: 0;
+}
+.name__card{
+    font-family: RobotoBold;
+    font-size: 16px;
+    color: #256EEB;
+    margin-top: 9px;
+    margin: 0px;
+}
+.name__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 19px;
+    margin-top: 12px;
+    padding: 0;
+}
+.price{
+    font-family: RobotoBold;
+    font-size: 16px;
+    padding: 0;
+    margin-top: 5px;
+}
+.price__first{
+    margin: 0px;
 }
