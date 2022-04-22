@@ -135,6 +135,9 @@
     margin-top: 25px;
     padding: 0;
 }
+.image__cards{
+    max-height: 178px;
+}
 .name__card{
     font-family: RobotoBold;
     font-size: 16px;
@@ -158,4 +161,12 @@
 }
 .price__first{
     margin: 0px;
+    margin-bottom: 10px;
+}
+.card__description{
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #C4C4C4;
+    margin: 0px;
+    margin-bottom: 4px;
 }
