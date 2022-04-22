@@ -11,3 +11,65 @@
     font-style: normal;
     font-weight: normal;
 }
+.wrapper{
+    max-width: 1146px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px
+}
+.icon__text{
+    font-size: 24px;
+    font-family: RobotoBold;
+    font-style: bold;
+    margin-left: 6px;
+}
+.icon__logo{
+    height: 27px;
+    width: 27px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 267px;
+    margin-left: 20px;
+}
+.menu__navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+.menu__object{
+    list-style-type: none;
+    font-family: RobotoRegular;
+    font-size: 14px;
+}
+.menu__entry{
+    display: flex;
+    align-items: center;
+}
+.login{
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.place__an__ad{
+    color: white;
+    background-color: #256EEB;
+    border-radius: 5px;
+}
+.link__menu{
+    text-decoration: none;
+    color: black;
+}
