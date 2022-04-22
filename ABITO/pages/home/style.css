@@ -31,6 +31,13 @@
     font-style: bold;
     margin-left: 6px;
 }
+.logo__link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
 .icon__logo{
     height: 27px;
     width: 27px;
@@ -62,14 +69,56 @@
     background-color: white;
     border: 0;
     padding: 10px 15px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    margin-right: 10px;
     cursor: pointer;
 }
 .place__an__ad{
     color: white;
     background-color: #256EEB;
+    border: 0px;
     border-radius: 5px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    height: 36px;
+    width: 161px;
 }
 .link__menu{
     text-decoration: none;
     color: black;
+}
+.link__menu:hover{
+    text-decoration: underline;
+}
+.string__search{
+    margin-top: 12px;
+}
+.search__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    max-height: 45px;
+    background-color: #256EEB;
+    padding: 3px;
+}
+.search__main input{
+    border-radius: 5px;
+    border: 0px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    width: 102%;
+    size: 14px;
+    padding: 14px 0 14px 21.45px;
+}
+.search__img{
+    margin-left: 20px;
+}
+.search__text{
+    color: white;
+    font-size: 16px;
+    font-family: RobotoRegular;
+    margin-right: 20px;
+    margin-left: 6px;
 }
