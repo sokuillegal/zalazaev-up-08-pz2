@@ -84,6 +84,9 @@
     height: 36px;
     width: 161px;
 }
+.link__menu-auto{
+    color: black;
+}
 .link__menu{
     text-decoration: none;
     color: black;
@@ -242,4 +245,7 @@
 .footer__link{
     text-decoration: none;
     color: black;
+}
+.footer__link:hover{
+    color: #4381eb;
 }

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter & family= Roboto:ital,wght@0,400;0,700;1,400;1,700 & display=swap');
+@font-face {
+    font-family: RobotoRegular;
+    src: url(/ABITO/assetes/fonts/Roboto-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: RobotoBold;
+    src: url(/ABITO/assetes/fonts/Roboto-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.wrapper{
+    max-width: 1146px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px
+}
+.icon__text{
+    font-size: 24px;
+    font-family: RobotoBold;
+    font-style: bold;
+    margin-left: 6px;
+}
+.logo__link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.icon__logo{
+    height: 27px;
+    width: 27px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 267px;
+    margin-left: 20px;
+}
+.menu__navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+.menu__object{
+    list-style-type: none;
+    font-family: RobotoRegular;
+    font-size: 14px;
+}
+.menu__entry{
+    display: flex;
+    align-items: center;
+}
+.login{
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.place__an__ad{
+    color: white;
+    background-color: #256EEB;
+    border: 0px;
+    border-radius: 5px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    height: 36px;
+    width: 161px;
+}
+.link__menu{
+    text-decoration: none;
+    color: black;
+}
+.link__menu:hover{
+    text-decoration: underline;
+}
+.string__search{
+    margin-top: 12px;
+}
+.search__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    max-height: 45px;
+    background-color: #256EEB;
+    padding: 3px;
+}
+.search__main input{
+    border-radius: 5px;
+    border: 0px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    width: 100%;
+    size: 14px;
+    padding: 14px 0 14px 21.45px;
+}
+.search__img{
+    margin-left: 20px;
+}
+.search__text{
+    background-color: #256EEB;
+    color: white;
+    border: 0px;
+    font-size: 16px;
+    font-family: RobotoRegular;
+    margin-right: 20px;
+    margin-left: 6px;
+    padding: 0px;
+}
