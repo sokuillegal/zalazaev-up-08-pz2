@@ -194,7 +194,9 @@
     align-items: center;
 }
 .buttons__seller{
+    display: flex;
     margin-top: 30px;
+    flex-direction: column;
 }
 .button__for__telephone{
     color: white;
@@ -205,6 +207,7 @@
     font-size: 14px;
     height: 54px;
     width: 264px;
+    margin-bottom: 14px;
 }
 .button__for__messages{
     color: white;
