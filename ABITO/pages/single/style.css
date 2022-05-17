@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter & family= Roboto:ital,wght@0,400;0,700;1,400;1,700 & display=swap');
 @font-face {
     font-family: RobotoRegular;
-    src: url(/ABITO/assetes/fonts/Roboto-Regular.ttf) format("truetype");
+    src: url(../../assetes/fonts/Roboto-Regular.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face{
     font-family: RobotoBold;
-    src: url(/ABITO/assetes/fonts/Roboto-Bold.ttf) format("truetype");
+    src: url(../../assetes/fonts/Roboto-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
